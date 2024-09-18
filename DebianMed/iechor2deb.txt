@@ -1,0 +1,199 @@
+https://bio.agents/agent/GenOuest/Minia/
+   homepage: http://minia.genouest.org/
+   minia
+https://bio.agents/agent/GenOuest/BioMAJ/
+   homepage: http://biomaj.genouest.org/
+   biomaj,biomaj-properties,biomaj-watcher
+https://bio.agents/agent/GenOuest/Logol/
+   homepage: http://logol.genouest.org
+   logol,logol-bin
+https://bio.agents/agent/DebianMed/bowtie/
+   homepage: https://tracker.debian.org/pkg/bowtie
+   bowtie
+https://bio.agents/agent/IFB IECHOR-FR/SeaView/
+   homepage: http://doua.prabi.fr/software/seaview
+   seaview
+https://bio.agents/agent/IFB IECHOR-FR/BWA cloud IFB/
+   homepage: http://bio-bwa.sourceforge.net/
+   bwa,libbwa-dev
+https://bio.agents/agent/IFB IECHOR-FR/hmmer - cloud IFB/
+   homepage: http://hmmer.janelia.org/
+   hmmer,hmmer-doc,hmmer2,hmmer2-doc,hmmer2-pvm
+https://bio.agents/agent/IFB IECHOR-FR/fastqc - cloud IFB/
+   homepage: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+   fastqc
+https://bio.agents/agent/IFB IECHOR-FR/eXpress - cloud IFB/
+   homepage: http://bio.math.berkeley.edu/eXpress/index.html
+   berkeley-express,berkeley-express-doc
+https://bio.agents/agent/IFB IECHOR-FR/R - cloud IFB/
+   homepage: http://www.r-project.org/
+   r-base,r-base-core,r-base-core-dbg,r-base-dev,r-base-html,r-doc-html,r-doc-info,r-doc-pdf,r-mathlib,r-recommended
+https://bio.agents/agent/Instruct/CCP4/
+   homepage: http://www.ccp4.ac.uk
+   libccp4-data,libccp4-dev,libccp4c0,libccp4c0-dbg,libccp4f0,libccp4f0-dbg,libmmdb-dev,libmmdb0,libmmdb0-dbg,libssm-dev,libssm1,libssm1-dbg
+https://bio.agents/agent/Instruct/Gromacs/
+   homepage: http://www.gromacs.org/
+   gromacs,gromacs-data,gromacs-dev,gromacs-mpich,gromacs-openmpi,libgromacs-dev,libgromacs1
+https://bio.agents/agent/BioCatalogue/GLprobsWS/
+   homepage: http://www.compbio.dundee.ac.uk/jabaws/
+   libjaba-client-java
+https://bio.agents/agent/BioCatalogue/JronnWS/
+   homepage: http://www.compbio.dundee.ac.uk/jabaws/
+   libjaba-client-java
+https://bio.agents/agent/BioCatalogue/DisemblWS/
+   homepage: http://www.compbio.dundee.ac.uk/jabaws/
+   libjaba-client-java
+https://bio.agents/agent/BioCatalogue/GlobPlotWS/
+   homepage: http://www.compbio.dundee.ac.uk/jabaws/
+   libjaba-client-java
+https://bio.agents/agent/BioCatalogue/IUPredWS/
+   homepage: http://www.compbio.dundee.ac.uk/jabaws/
+   libjaba-client-java
+https://bio.agents/agent/BioCatalogue/JpredWS/
+   homepage: http://www.compbio.dundee.ac.uk/jabaws/
+   libjaba-client-java
+https://bio.agents/agent/BioCatalogue/MafftWS/
+   homepage: http://mafft.cbrc.jp/alignment/software/index.html
+   mafft
+https://bio.agents/agent/BioCatalogue/ProbconsWS/
+   homepage: http://www.compbio.dundee.ac.uk/jabaws/
+   libjaba-client-java
+https://bio.agents/agent/BioCatalogue/ClustalWS/
+   homepage: http://www.compbio.dundee.ac.uk/jabaws/
+   libjaba-client-java
+https://bio.agents/agent/BioCatalogue/logol/
+   homepage: http://training.genouest.org/claroline/claroline/course/index.php?cid=LOGOL
+   logol
+https://bio.agents/agent/BioCatalogue/AnalysisServiceService/
+   homepage: http://mafft.cbrc.jp/alignment/software/
+   mafft
+https://bio.agents/agent/sanger.ac.uk/bcfagents/
+   homepage: http://www.htslib.org/
+   samagents,samagents-test
+https://bio.agents/agent/RostLab/PROFsec/
+   homepage: http://www.predictprotein.org
+   predictprotein,profnet-bval,profnet-chop,profnet-con,profnet-dbg,profnet-isis,profnet-md,profnet-norsnet,profnet-prof,profnet-snapfun,profphd-net
+https://bio.agents/agent/RostLab/PROFisis/
+   homepage: https://rostlab.org/owiki/index.php/PROFisis
+   profisis
+https://bio.agents/agent/RostLab/ncoils/
+   homepage: http://www.predictprotein.org
+   predictprotein,profnet-bval,profnet-chop,profnet-con,profnet-dbg,profnet-isis,profnet-md,profnet-norsnet,profnet-prof,profnet-snapfun,profphd-net
+https://bio.agents/agent/BioConductor/Biostrings/
+   homepage: http://bioconductor.org/packages/release/bioc/html/Biostrings.html
+   r-bioc-biostrings
+https://bio.agents/agent/BioConductor/GenomicAlignments/
+   homepage: http://bioconductor.org/packages/release/bioc/html/GenomicAlignments.html
+   r-bioc-genomicalignments
+https://bio.agents/agent/BioConductor/muscle/
+   homepage: http://bioconductor.org/packages/release/bioc/html/muscle.html
+   muscle
+https://bio.agents/agent/BioConductor/altcdfenvs/
+   homepage: http://bioconductor.org/packages/release/bioc/html/altcdfenvs.html
+   r-bioc-altcdfenvs
+https://bio.agents/agent/BioConductor/annotate/
+   homepage: http://bioconductor.org/packages/release/bioc/html/annotate.html
+   r-bioc-annotate
+https://bio.agents/agent/BioConductor/BSgenome/
+   homepage: http://bioconductor.org/packages/release/bioc/html/BSgenome.html
+   r-bioc-bsgenome
+https://bio.agents/agent/BioConductor/GenomeInfoDb/
+   homepage: http://bioconductor.org/packages/release/bioc/html/GenomeInfoDb.html
+   r-bioc-genomeinfodb
+https://bio.agents/agent/BioConductor/GenomicRanges/
+   homepage: http://bioconductor.org/packages/release/bioc/html/GenomicRanges.html
+   r-bioc-genomicranges
+https://bio.agents/agent/BioConductor/rtracklayer/
+   homepage: http://bioconductor.org/packages/release/bioc/html/rtracklayer.html
+   r-bioc-rtracklayer
+https://bio.agents/agent/BioConductor/VariantAnnotation/
+   homepage: http://bioconductor.org/packages/release/bioc/html/VariantAnnotation.html
+   r-bioc-variantannotation
+https://bio.agents/agent/EMBOSS/pscan/
+   homepage: http://emboss.open-bio.org/rel/rel6/apps/pscan.html
+   pscan
+https://bio.agents/agent/EMBOSS/tcode/
+   homepage: http://emboss.open-bio.org/rel/rel6/apps/tcode.html
+   tcode
+https://bio.agents/agent/EMBOSS/yank/
+   homepage: http://emboss.open-bio.org/rel/rel6/apps/yank.html
+   yank
+https://bio.agents/agent/EMBOSS/cons/
+   homepage: http://emboss.open-bio.org/rel/rel6/apps/cons.html
+   cons
+https://bio.agents/agent/EMBOSS/emma/
+   homepage: http://emboss.open-bio.org/rel/rel6/apps/emma.html
+   emma
+https://bio.agents/agent/EMBOSS/iep/
+   homepage: http://emboss.open-bio.org/rel/rel6/apps/iep.html
+   iep
+https://bio.agents/agent/EMBOSS/sixpack/
+   homepage: http://emboss.open-bio.org/rel/rel6/apps/sixpack.html
+   sixpack
+https://bio.agents/agent/tum.de/reprof/
+   homepage: https://github.com/Rostlab/reprof
+   reprof
+https://bio.agents/agent/Institut Pasteur/iep/
+   homepage: http://mobyle.pasteur.fr/#forms::iep
+   iep
+https://bio.agents/agent/Institut Pasteur/melting/
+   homepage: http://mobyle.pasteur.fr/#forms::melting
+   melting
+https://bio.agents/agent/Institut Pasteur/pscan/
+   homepage: http://mobyle.pasteur.fr/#forms::pscan
+   pscan
+https://bio.agents/agent/Institut Pasteur/dialign/
+   homepage: http://mobyle.pasteur.fr/#forms::dialign
+   dialign
+https://bio.agents/agent/Institut Pasteur/blast2/
+   homepage: http://mobyle.pasteur.fr/#forms::blast2
+   blast2
+https://bio.agents/agent/Institut Pasteur/sixpack/
+   homepage: http://mobyle.pasteur.fr/#forms::sixpack
+   sixpack
+https://bio.agents/agent/Institut Pasteur/seq-gen/
+   homepage: http://mobyle.pasteur.fr/#forms::seq-gen
+   seq-gen
+https://bio.agents/agent/Institut Pasteur/toppred/
+   homepage: http://mobyle.pasteur.fr/#forms::toppred
+   toppred
+https://bio.agents/agent/Institut Pasteur/cons/
+   homepage: http://mobyle.pasteur.fr/#forms::cons
+   cons
+https://bio.agents/agent/Institut Pasteur/phyml/
+   homepage: http://mobyle.pasteur.fr/#forms::phyml
+   phyml
+https://bio.agents/agent/Institut Pasteur/boxshade/
+   homepage: http://mobyle.pasteur.fr/#forms::boxshade
+   boxshade
+https://bio.agents/agent/Institut Pasteur/tcode/
+   homepage: http://mobyle.pasteur.fr/#forms::tcode
+   tcode
+https://bio.agents/agent/Institut Pasteur/mafft/
+   homepage: http://mobyle.pasteur.fr/#forms::mafft
+   mafft
+https://bio.agents/agent/Institut Pasteur/muscle/
+   homepage: http://mobyle.pasteur.fr/#forms::muscle
+   muscle
+https://bio.agents/agent/Institut Pasteur/yank/
+   homepage: http://mobyle.pasteur.fr/#forms::yank
+   yank
+https://bio.agents/agent/ucdavis.edu/khmer/
+   homepage: http://khmer.readthedocs.org/en/v2.0/
+   khmer
+https://bio.agents/agent/cibi/SeqAn/
+   homepage: http://www.seqan.de
+   seqan-apps,seqan-dev
+https://bio.agents/agent/UiO/VSEARCH/
+   homepage: https://github.com/torognes/vsearch
+   vsearch
+https://bio.agents/agent/UiO/Swarm/
+   homepage: https://github.com/torognes/swarm
+   swarm
+https://bio.agents/agent/evolbio.mpg.de/andi/
+   homepage: https://github.com/EvolBioInf/andi
+   andi
+https://bio.agents/agent/NTNU/Ray/
+   homepage: http://denovoassembler.sourceforge.net
+   ray,ray-doc,ray-extra
+66 of 2300 entries in iechor have candidates in Debian.

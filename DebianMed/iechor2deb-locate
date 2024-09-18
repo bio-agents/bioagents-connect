@@ -1,0 +1,99 @@
+#!/usr/bin/python
+
+import requests
+import json
+import subprocess
+import re
+
+def load_apt_dump():
+    cmd = ['apt-cache', 'dumpavail']
+    proc = subprocess.Popen(
+        cmd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        shell=False)
+    output, error = proc.communicate(input=input)
+    output, error = output.decode('UTF-8'), error.decode('UTF-8')
+    if proc.returncode != 0:
+        raise Error("Failure to get apt cache dump")
+    else:
+        pinfo = {}
+        for line in output.split("\n"):
+            m = re.search('^Package: (.*)$', line)
+            if m:
+                pkg = m.group(1)
+                src = None
+                homepage = None
+            m = re.search('^Source: (.*)$', line)
+            if m:
+                src = m.group(1)
+            m = re.search('^Homepage: (.*)$', line)
+            if m:
+                homepage = m.group(1)
+            if re.search('^$', line):
+                pinfo[pkg] = {'src':src, 'homepage':homepage}
+        return pinfo
+
+def clean_url(url):
+    url = url.replace('/index.html', '/')
+    m = re.search('^(https?://[^/]+)/$', url)
+    if m:
+        url = m.group(1)
+    return url
+
+def equivalent_urls(url1, url2):
+    return url1 == url2 or \
+        url1 + '/' == url2 or \
+        url2 == url2 + '/'
+
+def pkgswithhomepage(pinfo, homepage):
+    homepage = clean_url(homepage)
+    pkgs = []
+    for p in pinfo.keys():
+        if 'homepage' in pinfo[p] and pinfo[p]['homepage']:
+            phomepage = clean_url(pinfo[p]['homepage'])
+            if equivalent_urls(homepage, phomepage):
+                pkgs.append(p)
+    return pkgs
+
+# Url to get all entries in bio.agents directory as json
+url = 'https://bio.agents/api/agent/'
+
+pinfo = load_apt_dump()
+
+# Enable to test search function
+if False:
+    homepage = "http://www.ncbi.nlm.nih.gov/IEB/AgentBox/"
+    homepage = "http://www.predictprotein.org"
+    packages = pkgswithhomepage(pinfo, homepage)
+    print packages
+    os.exit(0)
+
+count = 0
+matchcount = 0
+r = requests.get(url)
+if 200 == r.status_code:
+    # r.headers['content-type']
+    # r.encoding
+    json = r.json()
+#    print json
+    for t in json:
+        count = count + 1
+#        print t
+        topics = t['topic']
+        homepage = t['homepage']
+        name = t['name']
+        affiliation = t['affiliation']
+        id = 'https://bio.agents/agent/%s/%s/' % (affiliation, name)
+
+#        print homepage
+        packages = pkgswithhomepage(pinfo, homepage)
+        if not packages and name in pinfo:
+            packages = [name]
+        if packages:
+            print id
+            print "   homepage:", homepage
+            print "  ",','.join(sorted(packages))
+            matchcount = matchcount + 1
+
+print matchcount, 'of', count, 'entries in iechor have candidates in Debian.'
